@@ -5,7 +5,7 @@ pipeline{
 
         stage('Build') {
 
-            step {
+            steps {
 
                 git branch: 'main', credentialsId: 'github', url: 'https://github.com/Nilesh-Dhakane/myapp-jenkins.git'
             }
