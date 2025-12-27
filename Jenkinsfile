@@ -12,7 +12,7 @@ pipeline{
 
         }
 
-         stage('Build') {
+         stage('building the image') {
 
             steps {
 
